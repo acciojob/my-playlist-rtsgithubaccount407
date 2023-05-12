@@ -1,36 +1,49 @@
-/*  your css code here. If applicable */
 body{
-	background-color:#cccccc;
-
+	background-color: #cccccc;
 }
+*{
+	text-decoration:none;
+	list-style:none;
+}
+ 
+h1, h2{
+	text-align:center;
+	padding:0px;
+/* 	margin:0px; */
+}
+ 
 .player_one{
 	background-color:white;
+	height:180px;
 	border:1px solid black;
-	display:flex;
-	flex-direction:column;
-	padding:8px;
+	border-radius:10px;
+}
+ 
+  ul a{
+	line-height:30px;
+	color:black;
+	margin-top: 50px ;
+	  
 	
 }
-.player_one a{
-	text-decoration:none;
-	
-}
-.main {
-	display:flex;
-	justify-content:center;
-}
-h1,h3{
-	text-align:center;
-}
+ 
 .player_two{
-	border:1px solid black;
+	text-align:center;
 	background-color:white;
-	width:400px;
-display:flex;
-	flex-direction:column;
-	
+	width:340px;
+	padding:10px 0px;
+	margin:auto;
+	border-radius:10px;
+	border: 1px solid black;
 }
-.player_two video{
-	width:375px;
-	padding:12px;
+ 
+h6{
+	text-align:start;
+    margin-left:10px;
 }
+audio{
+	width:340px;
+	height:30px;
+/* 	margin-bottom:30px; */
+}
+ 
